@@ -1,0 +1,28 @@
+:root {
+  --color: #00acac;
+  --background: rgb(20, 164, 92);
+}
+
+@media (max-width: 37.5em) {
+  :root {
+    --color: #160a5f;
+  }
+}
+
+.cabecera {
+  background: var(--background);
+}
+
+.articulo__entradilla {
+  color: var(--color);
+}
+
+.articulo__cuerpo > p:first-child::first-letter {
+  color: var(--background);
+}
+
+.imagen-circulo,
+.imagen-hexagono {
+  --color: #eaac88;
+  background: var(--color);
+}
